@@ -78,3 +78,7 @@ footer .footer-bottom a {
   border-color: #19809f !important; /* Blue border for email input */
 }
 
+.btn-primary{
+  background-color: #19809f !important;
+  color: white;
+}
