@@ -4,18 +4,18 @@ let conversionRate = 280; // 1 USD = 280 PKR
 
 // Product data
 const products = [
-  { id: 1, name: "Smart Watch", priceUSD: 50, img: "images/product1.jpg", desc: "A smart watch with fitness features." },
-  { id: 2, name: "Wireless Earbuds", priceUSD: 30, img: "images/product2.jpg", desc: "Crystal clear sound and compact design." },
-  { id: 3, name: "Bluetooth Speaker", priceUSD: 40, img: "images/product4.jpg", desc: "Loud, portable,good quality and waterproof." },
-  { id: 4, name: "Fitness Tracker", priceUSD: 35, img: "images/product3.jpg", desc: "Track steps, heart rate, and more." , style: "height = 34px"},
-  { id: 1, name: "Smart Watch", priceUSD: 50, img: "images/product5.jpg", desc: "A smart watch with fitness features." },
-  { id: 2, name: "Wireless Earbuds", priceUSD: 30, img: "images/product6.jpg", desc: "Crystal clear sound and compact design." },
-  { id: 3, name: "Bluetooth Speaker", priceUSD: 40, img: "images/product7.jpg", desc: "Loud, portable,good quality and waterproof." },
-  { id: 4, name: "Fitness Tracker", priceUSD: 35, img: "images/product8.jpg", desc: "Track steps, heart rate, and more." },
-  { id: 1, name: "Smart Watch", priceUSD: 50, img: "images/product9.jpg", desc: "A smart watch with fitness features." },
-  { id: 2, name: "Wireless Earbuds", priceUSD: 30, img: "images/product10.jpg", desc: "Crystal clear sound and compact design." },
-  { id: 3, name: "Bluetooth Speaker", priceUSD: 40, img: "images/product11.jpg", desc: "Loud, portable,good quality and waterproof." },
-  { id: 4, name: "Fitness Tracker", priceUSD: 35, img: "images/product12.jpg", desc: "Track steps, heart rate, and more."
+  { id: 1, name: "Red Shirt", priceUSD: 50, img: "images/product1.jpg", desc: "Good fabric with nice design." },
+  { id: 2, name: "Earrings", priceUSD: 30, img: "images/product2.jpg", desc: "Good quality with nice design." },
+  { id: 3, name: "Shirt", priceUSD: 40, img: "images/product4.jpg", desc: "Good fabric with nice design." },
+  { id: 4, name: "Red Mug", priceUSD: 35, img: "images/product3.jpg", desc: "Good quality with nice color quality. " , style: "height = 34px"},
+  { id: 1, name: "Bracelets", priceUSD: 50, img: "images/product5.jpg", desc: "Good quality with nice design." },
+  { id: 2, name: "Bracelet", priceUSD: 30, img: "images/product6.jpg", desc: "Good quality with nice design." },
+  { id: 3, name: "Shirt", priceUSD: 40, img: "images/product7.jpg", desc: "Good fabric with nice design." },
+  { id: 4, name: "Headphone", priceUSD: 35, img: "images/product8.jpg", desc: "Loud, portable,good quality and waterproof." },
+  { id: 1, name: "Watch", priceUSD: 50, img: "images/product9.jpg", desc: "A watch with good features." },
+  { id: 2, name: "Shirt", priceUSD: 30, img: "images/product10.jpg", desc: "Good fabric with nice design." },
+  { id: 3, name: "School bag", priceUSD: 40, img: "images/product11.jpg", desc: "Good quality with nice design." },
+  { id: 4, name: "White Mug", priceUSD: 35, img: "images/product12.jpg", desc: "Good quality with nice design."
    
    }
 ];
