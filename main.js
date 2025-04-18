@@ -7,7 +7,7 @@ const products = [
   { id: 1, name: "Red Shirt", priceUSD: 50, img: "images/product1.jpg", desc: "Good fabric with nice design." },
   { id: 2, name: "Earrings", priceUSD: 30, img: "images/product2.jpg", desc: "Good quality with nice design." },
   { id: 3, name: "Shirt", priceUSD: 40, img: "images/product4.jpg", desc: "Good fabric with nice design." },
-  { id: 4, name: "Red Mug", priceUSD: 35, img: "images/product3.jpg", desc: "Good quality with nice color quality. " , style: "height = 34px"},
+  { id: 4, name: "Red Mug", priceUSD: 35, img: "images/product3.jpg", desc: "Good quality and durable" , style: "height = 34px"},
   { id: 1, name: "Bracelets", priceUSD: 50, img: "images/product5.jpg", desc: "Good quality with nice design." },
   { id: 2, name: "Bracelet", priceUSD: 30, img: "images/product6.jpg", desc: "Good quality with nice design." },
   { id: 3, name: "Shirt", priceUSD: 40, img: "images/product7.jpg", desc: "Good fabric with nice design." },
