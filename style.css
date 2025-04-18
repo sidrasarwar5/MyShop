@@ -82,3 +82,8 @@ footer .footer-bottom a {
   background-color: #19809f !important;
   color: white;
 }
+
+.btn-danger{
+  background-color: #B6000A !important;
+  color: white;
+}
