@@ -34,7 +34,7 @@ function renderProducts() {
   products.forEach(product => {
     const price = currency === "PKR" ? product.priceUSD * conversionRate : product.priceUSD;
     const card = `
-      <div class="col-md-3 mb-4">
+      <div class="col-md-3 col-6 mb-4">
         <div class="card h-100">
           <img src="${product.img}" class="card-img-top" alt="${product.name}">
           <div class="card-body">
