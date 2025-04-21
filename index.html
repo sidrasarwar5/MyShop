@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidra's E-Commerce</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Bootstrap Icons -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+   
+    <!-- Font Awesome Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+
+ 
+        <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <i class="bi bi-bag-check-fill"></i>
+      MyShop
+
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html">MyCart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Placeholder: You can add content here later -->
+  <div class="container mt-5">
+    <h1 class="text-center">Welcome to MyShop</h1>
+    <p class="text-center">Start shopping your favorite items!</p>
+  </div>
+
+  
+  <!--Slider-->
+<!-- Hero Carousel Slider -->
+<div id="sectionCarousel" class="carousel slide my-4" data-bs-ride="carousel">
+  <div class="carousel-inner rounded shadow-sm" style="max-height: 500px;  overflow: hidden;">
+    <div class="carousel-item active">
+      <img src="images/slider1.jpg" class="d-block w-100 h-100" alt="Slider 1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider2.jpg" class="d-block w-100 h-100" alt="Slider 2">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider3.jpg" class="d-block w-100 h-100" alt="Slider 3">
+    </div>
+  </div>
+  <!-- Carousel Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#sectionCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#sectionCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+<div>
+  <select id="currencyToggle" class="form-select form-select-sm w-50  text-dark">
+    <option value="PKR">PKR</option>
+    <option value="USD">USD</option>
+  </select>
+</div>
+
+ 
+  <!-- Product Grid -->
+  <div class="container my-5">
+    <div class="row" id="product-list">
+      <!-- JS will inject products here -->
+       
+    </div>
+  </div>
+
+  <!-- Product Grid -->
+<div class="container my-5">
+  <h2>Products</h2>
+  <div class="row" id="product-list">
+      <!-- JS will inject products here -->
+  </div>
+</div>
+
+
+ 
+   <!-- Fixed Cart Button -->
+   <div class="cart-fixed">
+    <a href="cart.html">
+    <button class="btn btn-primary rounded-circle p-3" data-bs-toggle="modal" data-bs-target="#cartModal">
+      <i class="bi bi-cart-fill fs-4"></i>
+    </button>
+  </a>
+  </div>
+
+
+  
+<div class="container my-5">
+  <div class="row justify-content-center text-center">
+    <div class="col-12 col-md-8">
+      <div class="alert custom-alert"> <!-- Custom alert class -->
+        <h3 class="fw-bold">Discover Our Exciting New Arrivals!</h3>
+        <p class="lead">Stay ahead of the trends with our latest collection. Explore fresh styles and grab your favorites before they're gone!</p>
+      </div>
+    
+      
+      <!-- Email Subscription Form -->
+      <div class="mt-4">
+        <p class="text-muted">Enter your email to receive exclusive updates and offers.</p>
+        <form action="#" method="post" class="d-flex justify-content-center">
+          <input type="email" class="form-control w-50 custom-input" placeholder="Enter your email" required>
+          <button type="submit" class="btn btn-subscribe ms-2">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+  
+   <!-- Footer Section -->
+   <footer>
+    <div class="container-fluid">
+      <div class="row">
+  
+       
+        <!-- About Us Section -->
+        <div class="col-12 col-md-3 ">
+          <h5>About Us</h5>
+          <p>We are a trendy clothing store offering the latest styles for every occasion. Our mission is to provide high-quality, fashionable apparel at affordable prices.</p>
+        </div>
+  
+        <!-- Quick Links Section -->
+        <div class="col-12 col-md-3">
+          <h5>Quick Links</h5>
+          <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Sale</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+  
+        <!-- Social Media Section -->
+        <div class="col-12 col-md-3">
+          <h5>Follow Us</h5>
+          <div class="social-icons">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+  
+        <!-- Contact Info Section -->
+        <div class="col-12 col-md-3">
+          <h5>Contact</h5>
+          <ul class="list-unstyled">
+            <li>Email: contact@yourstore.com</li>
+            <li>Phone: +123 456 7890</li>
+            <li>Address: 123 Fashion St, City, Country</li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2025 Your Clothing Store. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

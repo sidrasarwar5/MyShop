@@ -1,0 +1,42 @@
+const products = [
+  { id: 1, name: "Red Shirt", priceUSD: 50, img: "images/product1.jpg", desc: "Good fabric with nice design." },
+  { id: 2, name: "Earrings", priceUSD: 30, img: "images/product2.jpg", desc: "Good quality with nice design." },
+  { id: 3, name: "Shirt", priceUSD: 40, img: "images/product4.jpg", desc: "Good fabric with nice design." },
+  { id: 4, name: "Red Mug", priceUSD: 35, img: "images/product3.jpg", desc: "Good quality and durable" , style: "height = 34px"},
+  { id: 1, name: "Bracelets", priceUSD: 50, img: "images/product5.jpg", desc: "Good quality with nice design." },
+  { id: 2, name: "Bracelet", priceUSD: 30, img: "images/product6.jpg", desc: "Good quality with nice design." },
+  { id: 3, name: "Shirt", priceUSD: 40, img: "images/product7.jpg", desc: "Good fabric with nice design." },
+  { id: 4, name: "Headphone", priceUSD: 35, img: "images/product8.jpg", desc: "Loud, portable,good quality and waterproof." },
+  { id: 1, name: "Watch", priceUSD: 50, img: "images/product9.jpg", desc: "A watch with good features." },
+  { id: 2, name: "Shirt", priceUSD: 30, img: "images/product10.jpg", desc: "Good fabric with nice design." },
+  { id: 3, name: "School bag", priceUSD: 40, img: "images/product11.jpg", desc: "Good quality with nice design." },
+  { id: 4, name: "White Mug", priceUSD: 35, img: "images/product12.jpg", desc: "Good quality with nice design."
+   
+   }
+
+   <div class="cart-item border rounded p-3 mb-3">
+    <div class="row align-items-center">
+      <!-- Image and Name Section -->
+      <div class="col-12 col-md-6 d-flex align-items-center gap-3 mb-3 mb-md-0">
+        <img src="${item.img}" width="80" height="80" class="img-thumbnail object-fit-cover" alt="${item.name}">
+        <div>
+          <h5 class="mb-1">${item.name}</h5>
+          <p class="mb-1 text-muted">${currency === "PKR" ? "₨" : "$"}${price.toLocaleString()} each</p>
+        </div>
+      </div>
+  
+      <!-- Quantity, Subtotal and Remove Section -->
+      <div class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-center justify-content-md-end gap-3">
+        <div class="input-group" style="width: 130px;">
+          <button class="btn btn-outline-secondary decrement-btn" type="button" data-id="${item.id}">-</button>
+          <input type="text" class="form-control text-center quantity-input" value="${item.qty}" data-id="${item.id}" readonly>
+          <button class="btn btn-outline-secondary increment-btn" type="button" data-id="${item.id}">+</button>
+        </div>
+        <div class="text-end" style="min-width: 100px;">
+          <strong>${currency === "PKR" ? "₨" : "$"}${subtotal.toLocaleString()}</strong>
+        </div>
+        <button class="btn btn-danger remove-btn" data-id="${item.id}">Remove</button>
+      </div>
+    </div>
+  </div>
+  
